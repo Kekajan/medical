@@ -134,6 +134,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border-color: #223a66;
 }
 
+
 .btn-solid-border {
   border: 2px solid #223a66;
   background: transparent;
@@ -1488,6 +1489,13 @@ a:focus {
   transition: all .3s;
   cursor: pointer;
   opacity: 1;
+}
+.navbar-brand .img-fluid{
+  width: 66% !important;
+}
+.footer .img-fluid{
+  /* width: 66% !important; */
+  mix-blend-mode: multiply;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
