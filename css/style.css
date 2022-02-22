@@ -2,7 +2,7 @@
 /*
 Theme Name: Medic
 Author: Group 3
-Author URI: https://Group 3.com/
+Author URI: #
 Description: Medicle Template
 Version: 1.0.0
 
@@ -1496,6 +1496,12 @@ a:focus {
 .footer .img-fluid{
   /* width: 66% !important; */
   mix-blend-mode: multiply;
+}
+.dr-name{
+  transition: 0.5s;
+}
+.dr-name:hover{
+  color: #e12454;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

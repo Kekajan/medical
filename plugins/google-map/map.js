@@ -84,4 +84,15 @@ function initMap() {
             }
           ]
         });
+
+        const image =
+        "https://senzagro-app.s3.amazonaws.com/farm-images/p7s7mAghYiHDwzpnkTC1oE.png";
+
+        new google.maps.Marker({
+          position: {lat: 6.927079, lng: 79.861244},
+          map,
+          title: "MediCare!",
+          // icon:image
+        });
+
       }
